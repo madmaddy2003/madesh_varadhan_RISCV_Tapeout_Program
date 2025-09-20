@@ -11,8 +11,8 @@ The focus was on ensuring a **stable workspace** to handle synthesis, simulation
 | Specification 💻        | Details 📋    |
 | ----------------------- | ------------- |
 | **Operating System 🐧** | Ubuntu 20.04+ |
-| **RAM 💾**              | 6 GB          |
-| **Storage 💿**          | 50 GB HDD     |
+| **RAM 💾**              | 8 GB          |
+| **Storage 💿**          | 40 GB HDD     |
 | **vCPUs ⚡**             | 4             |
 
 💡 *This configuration ensures smooth performance for toolchains, synthesis, and simulation.*
@@ -49,6 +49,7 @@ sudo make install
 ```
 
 ✅ Verified with `yosys` command
+<img width="871" height="656" alt="Screenshot 2025-09-20 212352" src="https://github.com/user-attachments/assets/4667c1d8-df42-4db1-bd14-ebdc5cbb77da" />
 
 ---
 
@@ -61,6 +62,7 @@ sudo apt-get install iverilog
 ```
 
 ✅ Verified with `iverilog -v`
+<img width="797" height="659" alt="Screenshot 2025-09-20 212752" src="https://github.com/user-attachments/assets/9a21cf7f-3cd6-484e-a5e1-2853ac594b46" />
 
 ---
 
@@ -73,6 +75,7 @@ sudo apt-get install gtkwave
 ```
 
 ✅ Verified with `gtkwave`
+<img width="1180" height="664" alt="Screenshot 2025-09-20 212940" src="https://github.com/user-attachments/assets/3071df8f-f7a0-48b1-9497-5e88373c9655" />
 
 ---
 
@@ -85,6 +88,7 @@ sudo apt-get install ngspice
 ```
 
 ✅ Verified with `ngspice -v`
+<img width="809" height="242" alt="Screenshot 2025-09-20 213109" src="https://github.com/user-attachments/assets/835b0a83-b8d8-45f6-8340-b69f67deddda" />
 
 ---
 
@@ -108,6 +112,7 @@ sudo make install
 ```
 
 ✅ Verified with `magic -d XR`
+<img width="1226" height="720" alt="Screenshot 2025-09-20 213256" src="https://github.com/user-attachments/assets/3bffbfa0-5ca6-4acb-860f-958456287d8c" />
 
 ---
 
@@ -117,9 +122,9 @@ sudo make install
 * ✅ All required tools installed & verified
 * 🛠️ Workspace ready for **RTL-to-GDS design flow**
 
-📂 **Repository**: `RTL2GDS_Alchemy`
-👨‍💻 **Author**: *TheVoltageVikingRam*
-📚 **Program**: VLSI System Design (VSD)
+📂 **Repository**: `madesh_varadhan_RISCV_Tapeout_Program`
+👨‍💻 **Author**: *madmaddy2003*
+📚 **Program**: RISC‑V Reference SoC Tapeout Program
 
 ---
 
