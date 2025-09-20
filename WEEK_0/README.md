@@ -25,11 +25,11 @@ The following open-source VLSI tools were installed & verified:
 
 | Tool                             | Status     | Purpose             |
 | -------------------------------- | ---------- | ------------------- |
-| 🧠 **Yosys**                     | ✅ Complete | RTL Synthesis       |
-| 📟 **Icarus Verilog (Iverilog)** | ✅ Complete | Verilog Simulation  |
-| 📊 **GTKWave**                   | ✅ Complete | Waveform Debugging  |
-| ⚡ **Ngspice**                    | ✅ Complete | Circuit Simulation  |
-| 🎨 **Magic VLSI**                | ✅ Complete | Layout Design & DRC |
+| 🧠 **Yosys**                     | ✅ Completed | RTL Synthesis       |
+| 📟 **Icarus Verilog (Iverilog)** | ✅ Completed | Verilog Simulation  |
+| 📊 **GTKWave**                   | ✅ Completed | Waveform Debugging  |
+| ⚡ **Ngspice**                    | ✅ Completed | Circuit Simulation  |
+| 🎨 **Magic VLSI**                | ✅ Completed | Layout Design |
 
 ---
 
@@ -44,6 +44,7 @@ sudo apt install make build-essential clang bison flex \
 libreadline-dev gawk tcl-dev libffi-dev git graphviz \
 xdot pkg-config python3 libboost-system-dev \
 libboost-python-dev libboost-filesystem-dev zlib1g-dev
+make config-gcc
 make
 sudo make install
 ```
@@ -58,6 +59,7 @@ sudo make install
 **Installation**
 
 ```bash
+sudo apt-get update
 sudo apt-get install iverilog
 ```
 
@@ -71,6 +73,7 @@ sudo apt-get install iverilog
 **Installation**
 
 ```bash
+sudo apt-get update
 sudo apt-get install gtkwave
 ```
 
@@ -84,6 +87,7 @@ sudo apt-get install gtkwave
 **Installation**
 
 ```bash
+sudo apt-get update
 sudo apt-get install ngspice
 ```
 
